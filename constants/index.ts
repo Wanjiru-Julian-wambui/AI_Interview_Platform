@@ -1,6 +1,8 @@
 /*import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 import { z } from "zod";
 
+*/
+
 export const mappings = {
   "react.js": "react",
   reactjs: "react",
@@ -97,6 +99,8 @@ export const mappings = {
   "aws amplify": "amplify",
 };
 
+/*
+
 export const interviewer: CreateAssistantDTO = {
   name: "Interviewer",
   firstMessage:
@@ -189,6 +193,8 @@ export const feedbackSchema = z.object({
   finalAssessment: z.string(),
 });
 
+*/
+
 export const interviewCovers = [
   "/adobe.png",
   "/amazon.png",
@@ -203,6 +209,7 @@ export const interviewCovers = [
   "/tiktok.png",
   "/yahoo.png",
 ];
+
 
 export const dummyInterviews: Interview[] = [
   {
@@ -228,4 +235,3 @@ export const dummyInterviews: Interview[] = [
     createdAt: "2024-03-14T15:30:00Z",
   },
 ];
-*/
